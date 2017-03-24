@@ -39,9 +39,9 @@ angular.module("/angular-time-picker.tpl.html", []).run(["$templateCache", funct
     "			</span>\n" +
     "		</div>\n" +
     "		<div class=\"angular-time-picker-push--top\">\n" +
-    "			<button type=\"button\" class=\"btn btn--primary btn--med\" ng-click=\"resetToOriginalTimeSettings()\">Reset</button>\n" +
+    "			<button type=\"button\" class=\"btn btn--ghost btn--med btn--nospace\" ng-click=\"resetToOriginalTimeSettings()\">Reset</button>\n" +
     "			<button type=\"button\" class=\"angular-time-picker-push-half--left  angular-time-picker-float--right  angular-time-picker-apply-btn btn btn--primary btn--med\" ng-click=\"applyTimeRangeFilter()\">Apply</button>\n" +
-    "			<button type=\"button\" class=\"angular-time-picker-push-half--left  angular-time-picker-float--right  angular-time-picker-cancel-btn btn btn--primary btn--med\" ng-click=\"closeTimeFilterDropdown()\">Cancel</button>\n" +
+    "			<button type=\"button\" class=\"angular-time-picker-push-half--left  angular-time-picker-float--right  angular-time-picker-cancel-btn btn btn--ghost btn--med\" ng-click=\"closeTimeFilterDropdown()\">Cancel</button>\n" +
     "		</div>\n" +
     "	</div>\n" +
     "</div>\n" +
